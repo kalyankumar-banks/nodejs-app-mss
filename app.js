@@ -30,9 +30,12 @@ app.get('/mithuntechnologies', function(request, response) {
  
   app.get('/docker', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app</h2>");
-    response.write("<h2><center><u>Node JS  Sample App </u></center></h2>");
+    response.write("<h1><center>Welcome to  Docker</h1>" );
+	  
+    response.write("<h2><center><u>Node JS Sample App </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to  Docker</h2>" );
+    response.write("<h3><center>Welcome to  Docker</h3>" );
+      
     response.end();
     
   })
