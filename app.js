@@ -34,7 +34,7 @@ app.get('/mithuntechnologies', function(request, response) {
 	  
     response.write("<h2><center><u>Node JS Sample App </u></center></h2>");
 	
-    response.write("<h3><center>Welcome to  Docker</h3>" );
+    response.write("<h3><center>Trainee - Kalyan Kumar</h3>" );
       
     response.end();
     
